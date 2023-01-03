@@ -16,11 +16,14 @@ def get_requirements()->List[str]:
     return requirement_list
 
 
+
 setup(
     name="sensor",
-    version="0.0.1",
-    author="rakesh".
+    version="0.0.2",
+    author="ineuron",
     author_email="rakeshbind340@gmail.com",
-    packages=find_packages(),
+    packages = find_packages(),
     install_requires=get_requirements(),
 )
+
+
